@@ -3,7 +3,7 @@ save a massive number of files in text form without thinking about giving a uniq
 
 example:
 
-'''golang
+```golang
 package main
 
 import(
@@ -26,4 +26,4 @@ func main(){
      fmt.Println(massivewrite.BuildRandomWrite("./trydir2/","ciao","startB",".json"))
 
 }
-''''
+```
